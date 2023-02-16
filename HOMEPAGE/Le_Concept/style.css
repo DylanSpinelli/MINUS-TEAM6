@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html{
+    max-width: 1440px;
+    margin : 0 auto;
+    background-color: #EAEAEA;
+}
+
+header{
+    background-color: #AE694C;
+    width: 100%;
+    height: 80px;
+
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 40px;
+
+    position: sticky;
+    top: 0px;
+    z-index: 99;
+
+}
+#logo{
+    margin-left: 25px;
+    width: 200px;
+    height: 75px;
+}
+header ul{
+    display: flex;
+
+    margin-left: 60px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 180px;
+}
+header ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+
+}
+header ul li a:hover{
+    color: yellow;
+
+}
+
+#header_mon_minus{
+    color: black;
+}
+#header_mon_minus:hover{
+    color: white;
+
+}
+.chevron_mobile, .menu_mobile{
+    display: none;
+    width: 0px;
+}
+
+main{
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+
+#titre{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+
+    text-align: center;
+
+    margin-bottom: 80px;
+}
+
+.concept{
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.etapes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+
+    width: 100%;
+
+    height: 200px;
+
+    margin-bottom: 40px;
+
+}
+.etape_reverse{
+    flex-direction: row-reverse;
+}
+
+#numero{
+    width: 30px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.photo_etapes{
+    width: 300px;
+    height: 200px;
+}
+.photo_etapes img{
+    width: 100%;
+    height: 100%;
+}
+
+.description_etape{
+    width: 300px;
+    height: 100%;
+    background-color: #FFF10180;
+}
+
+
+
+.description_etape h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+
+    text-align: center;
+
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.description_etape p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+
+    text-align: center;
+}
+
+.bouton_commande{
+
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+
+    margin-bottom: 200px;
+}
+
+
+.bouton_vert{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+    text-decoration: none;
+
+    background-color: #40AE49;
+    border-radius: 10px;
+    padding: 50px 100px;
+
+}
+
+
+.histoire {
+    margin: 0 auto;
+
+    width: 800px;
+
+    margin-bottom: 60px;
+}
+
+.histoire img{
+    margin-bottom: 60px;
+}
+
+.histoire p{
+    background-color: #00AEEF;
+    border: solid 3px #40AE49;
+
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.equipe{
+    margin: 0 auto;
+    width: 700px;
+}
+
+.personne{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 80px;
+
+    margin-bottom: 60px;
+}
+
+.description_equipe{
+    width: 200px;
+}
+
+.description_equipe p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.personne img{
+    width: 400px;
+    height: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: #AE694C;
+    width: 100%;
+    margin: 0 auto;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+
+.footer_content{
+    margin: 20px 20px;
+    width: 100%;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 80px;
+}
+
+#logo_footer{
+
+
+    width: 250px;
+    height: 200px;
+}
+
+footer ul{
+
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.titre_footer{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+
+}

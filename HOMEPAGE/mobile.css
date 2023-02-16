@@ -1,0 +1,145 @@
+header ul{
+    display: none;
+    /* order: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+    gap: 20px;
+    background-color: #AE694C; */
+
+
+}
+
+header{
+    align-items: center;
+    justify-content: center;
+    /* gap: 50px;
+    flex-wrap: wrap;
+    padding-right: 50px; */
+    gap: 20px;
+}
+
+.chevron_mobile, .menu_mobile{
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+
+.background h1{
+    font-size: 20px;
+}
+
+.bouton_vert{
+    padding: 20px 50px;
+    font-size: 20px;
+}
+
+.background .bouton_vert{
+    top: 60%;
+}
+
+main h1{
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+.home_recettes{
+    gap: 30px;
+}
+
+.recette img{
+    width: 250px;
+}
+
+
+.recette{
+    width: 250px;
+    height: fit-content;
+    margin-bottom: 25px;
+}
+
+
+.chef h1{
+    font-size: 25px;
+    font-weight: 600;
+
+    width: 300px;
+
+    padding-bottom: 20px;
+    margin: 0 auto;
+}
+
+.photo_chef{
+    height: 300px;
+}
+
+.cuisine{
+    height: 300px;
+}
+
+.photos{
+    gap: 25px;
+}
+
+.avis_clients h1{
+    font-size: 20px;
+}
+
+.avis{
+    width: 250px;
+    height: 150px;
+}
+
+.description_avis{
+    margin: 0 auto;
+    font-size: 10px;
+    /* text-align: unset; */
+    line-height: 10px;
+}
+
+.image_avis{
+    /* width: 100px; */
+    margin: 0 auto;
+}
+
+.etoiles{
+    width: 100px;
+    margin: 0 auto;
+
+}
+
+footer ul{
+    display: none;
+}
+
+#reseaux{
+    display: unset;
+}
+
+#logo_footer{
+    width: 200px;
+    height: 150px;
+}
+
+.footer_content{
+    gap: 20px;
+    align-items: center;
+}
+
+.titre_footer{
+
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+#logo_newsletter{
+    width: 15px;
+}
+
+#reseaux_sociaux{
+    width: 100px;
+}
