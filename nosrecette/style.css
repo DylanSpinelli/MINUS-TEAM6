@@ -1,0 +1,166 @@
+body{
+	background: #EAEAEA;
+	margin: 0;
+	padding: 0;
+}
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+a{
+	color: black;
+}
+a:hover{
+	color:black;
+	text-decoration: none;
+}
+h1{
+	text-align: center;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 64px;
+	line-height: 146.12%;
+
+}
+h3{
+	margin-bottom: 50px;
+	text-align: center;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 36px;
+	line-height: 56px;
+
+}
+.filtre img{
+	width: 100px;
+	float: left;
+	margin-left: 70px;
+	margin-bottom: 20px;
+}
+.filtre p{
+	padding-top: 30px;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 146.12%;
+}
+
+.section-recette img{
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+	border-radius: 40px 40px 0px 0px;
+	width: 100%;
+	height: 300px;
+
+}
+
+.media0{
+
+	width: 100%;
+	height: 80px;
+	top: calc(10% - 0px/2 - 0px);
+	background: #FFFFFF;
+	border-radius: 0px 0px 40px 40px;
+	margin-bottom: 30px;
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.media0 p{
+
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	text-align: center;
+	color: #000000;
+	margin: 0 auto;
+
+}
+.media0 input{
+	position: absolute;
+	border-radius: 100px;
+	width: 40px;
+	height: 40px;
+	margin-left: 20px;
+	background-color:  #1E5E23;
+	border-color:  #1E5E23;
+	border-style: none;
+	color: white;
+	margin-top: 30px;
+}
+.marecette{
+	margin-left:70px;
+}
+.monimage{
+	width: 60px;
+	height:60px;
+	margin-left: 10px;
+}
+.selection{
+
+	box-sizing: border-box;
+	background: #FFFFFF;
+	width: 100%;
+	height: auto;
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+	margin-bottom: 20px;
+	padding-bottom: 15px;
+	position: sticky;
+	bottom: 0px;
+
+
+}
+.img-selection{
+	margin-left: 60px;
+}
+
+.selection input{
+	margin-top: 30px;
+	background: #1E5E23;
+	border-radius: 10px;
+	color: white;
+	border-color: #1E5E23;
+	height: 50px;
+	width: 130px;
+	margin-left: 60px;
+	border-color:#1E5E23;
+	border-style: none; 
+}
+.selection input:hover{
+	background-color: white;
+	color: #1E5E23;
+	border-color:white;
+}
+.selection p{
+	margin-left: 80px;
+
+}
+
+.etape-btn1, .etape-btn2, .etape-btn3{
+
+	border-radius: 100px;
+	width: 40px;
+	height: 40px;
+	border-color: white;
+	float: left;
+	margin-right: 10px;
+	border-style: none;
+	
+}
+.etape-btn1{ 
+	background: #FCEB51; 
+	border-color: #FCEB51;}
+	.etapes{
+		padding-left: 50px;
+		margin-top: 30px;
+		margin-bottom: 30px;
+		font-family: 'Raleway';
+		font-style: normal;
+		font-size: 18px;
+	}
+	.etapes p{
+		padding-top: 10px;
+	}
+

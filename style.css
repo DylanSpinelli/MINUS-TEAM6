@@ -6,7 +6,7 @@
 }
 
 html{
-    max-width: 1440px;
+    max-width: 100%;
     margin : 0 auto;
     background-color: #EAEAEA;
 }
@@ -15,13 +15,10 @@ header{
     background-color: #AE694C;
     width: 100%;
     height: 80px;
-
     display: flex;
     align-items: center;
-
     position: sticky;
     top: 0px;
-
     z-index: 99;
 
 }
@@ -54,274 +51,275 @@ header ul li a:hover{
     color: yellow;
 
 }
-#header_mon_minus{
+/* #header_mon_minus{
     color: black;
 }
 #header_mon_minus:hover{
     color: white;
 
-}
-
-main{
-    width: 100%;
-    margin: 0 auto;
-
-}
-.background{
-    width: 100%;
-    margin: 0 auto;
-    background-color: black;
-
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-    position: relative;
-
-    margin-bottom: 30px;
-
-}
-#background_image{
-    max-width: 100%;
-    height: 100%;
-    margin: 0 auto;
-    opacity: 0.5;
-
-}
-.background h1{
-    color: white;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 600;
-    font-size: 35px;
-
-    position: absolute;
-    top: 10%;
-}
-.bouton_vert{
-    color: white;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 600;
-    font-size: 35px;
-    text-decoration: none;
-
-    background-color: #40AE49;
-    border-radius: 10px;
-    padding: 40px 100px;
-
-    margin: 0 auto;
-}
-.background .bouton_vert{
-    position: absolute;
-    top: 350px;
-
-}
-h1{
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 40px;
-    text-align: center;
-
-    margin-bottom: 60px;
-}
-
-.home_recettes{
-
-    width: 100%;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px;
-
-    margin-bottom: 40px;
-
-}
-
-.recette img{
-    width: 400px;
-}
-.recette{
-    width: 400px;
-    height: 400px;
-    
-    margin-bottom: 40px;
-}
-.recette p{
-    text-align: center;
-
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-
-    background-color: white;
-    padding: 20px 20px;
-    border-radius: 0px 0px 50px 50px;
-}
-
-.bouton_recettes{
-    margin-bottom: 40px;
-}
+    } */
+
+    main{
+        width: 100%;
+        margin: 0 auto;
+
+    }
+    .background{
+        width: 100%;
+        margin: 0 auto;
+        background-color: black;
+
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        position: relative;
+
+        margin-bottom: 30px;
+
+    }
+    #background_image{
+        max-width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        opacity: 0.5;
+
+    }
+    .background h1{
+        color: white;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 600;
+        font-size: 35px;
+
+        position: absolute;
+        top: 10%;
+    }
+    .bouton_vert{
+        color: white;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 600;
+        font-size: 35px;
+        text-decoration: none;
+
+        background-color: #1E5E23;
+        border-radius: 10px;
+        padding: 40px 100px;
+
+        margin: 0 auto;
+    }
+    .background .bouton_vert{
+        position: absolute;
+        top: 350px;
+
+    }
+    h1{
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-size: 40px;
+        text-align: center;
+
+        margin-bottom: 60px;
+    }
+
+    .home_recettes{
+
+        width: 100%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+
+        margin-bottom: 40px;
+
+    }
+
+    .recette img{
+        width: 400px;
+    }
+    .recette{
+        width: 400px;
+        height: 400px;
+        
+        margin-bottom: 40px;
+    }
+    .recette p{
+        text-align: center;
+
+        font-family: 'Raleway', sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+
+        background-color: white;
+        padding: 20px 20px;
+        border-radius: 0px 0px 50px 50px;
+        height: 100px;
+    }
 
+    .bouton_recettes{
+        margin-bottom: 40px;
+    }
 
 
-hr{
-    margin: 40px;
-    text-align: center;
-    border: 2px solid black;
-}
 
-.chef{
-    background-color: white;
-    padding-top: 50px;
+    hr{
+        margin: 40px;
+        text-align: center;
+        border: 2px solid black;
+    }
 
-    margin-bottom: 40px;
+    .chef{
+        background-color: white;
+        padding-top: 50px;
+
+        margin-bottom: 40px;
 
-    padding-bottom: 50px;
-}
+        padding-bottom: 50px;
+    }
 
-.chef h1{
-    text-align: center;
+    .chef h1{
+        text-align: center;
 
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 40px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-size: 40px;
 
-    margin: 20px 150px;
+        margin: 20px 150px;
 
-    margin-bottom: 40px;
-}
-.photo_chef{
-    width: 400px;
-}
-.cuisine{
-    width: 500px;
-}
-.photos{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 100px;
+        margin-bottom: 40px;
+    }
+    .photo_chef{
+        width: 400px;
+    }
+    .cuisine{
+        width: 500px;
+    }
+    .photos{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 100px;
 
-    padding-bottom: 20px;
-}
+        padding-bottom: 20px;
+    }
 
-.avis_clients{
-    margin-bottom: 40px;
-}
+    .avis_clients{
+        margin-bottom: 40px;
+    }
 
 
-.liste_avis{
-    /* display: flex; */
-    align-items: center;
-    gap: 40px;
-}
+    .liste_avis{
+        /* display: flex; */
+        align-items: center;
+        gap: 40px;
+    }
 
 
-.avis{
-    width: 500px;
-    height: 200px;
+    .avis{
+        width: 500px;
+        height: 200px;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
 
-    border: 2px solid black;
-    border-radius: 30px;
+        border: 2px solid black;
+        border-radius: 30px;
 
-    background-color: white;
+        background-color: white;
 
-}
+    }
 
-.description_avis{
-    text-align: center;
+    .description_avis{
+        text-align: center;
 
-    margin-top: 20px;
-    margin-bottom: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
 
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 20px;
-}
+        font-family: 'Raleway', sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+    }
 
-.description_avis h2{
-    font-weight: bold;
-    padding-bottom: 5px;
-}
+    .description_avis h2{
+        font-weight: bold;
+        padding-bottom: 5px;
+    }
 
-.image_avis{
-    width: 150px;
-    margin-bottom: 20px;
-    margin: 0 auto;
-}
+    .image_avis{
+        width: 150px;
+        margin-bottom: 20px;
+        margin: 0 auto;
+    }
 
-.etoiles{
-    padding-top: 20px;
-    width: 200px;
-    margin: 0 auto;
-}
-.slick-slide{
-    margin: 0px 80px;
-    
-}
+    .etoiles{
+        padding-top: 20px;
+        width: 200px;
+        margin: 0 auto;
+    }
+    .slick-slide{
+        margin: 0px 80px;
+        
+    }
 
 
-footer{
-    background-color: #AE694C;
-    width: 100%;
-    margin: 0 auto;
-    color: white;
+    footer{
+        background-color: #AE694C;
+        width: 100%;
+        margin: 0 auto;
+        color: white;
 
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
 
-}
+    }
 
-.footer_content{
-    margin: 20px 20px;
-    width: 100%;
+    .footer_content{
+        margin: 20px 20px;
+        width: 100%;
 
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    gap: 80px;
-}
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 80px;
+    }
 
-#logo_footer{
+    #logo_footer{
 
 
-    width: 250px;
-    height: 200px;
-}
+        width: 250px;
+        height: 200px;
+    }
 
-footer ul{
+    footer ul{
 
 
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    gap: 20px;
-}
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
 
-.titre_footer{
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 25px;
+    .titre_footer{
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-size: 25px;
 
-}
+    }
 
-footer ul li a{
-    text-decoration: none;
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 20px;
+    footer ul li a{
+        text-decoration: none;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 20px;
 
-}
+    }
 

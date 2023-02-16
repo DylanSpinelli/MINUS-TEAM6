@@ -1,0 +1,51 @@
+header ul{
+    display: none;
+}
+
+header{
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.chevron_mobile, .menu_mobile{
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+
+
+footer ul{
+    display: none;
+}
+
+#reseaux{
+    display: unset;
+}
+
+#logo_footer{
+    width: 200px;
+    height: 150px;
+}
+
+.footer_content{
+    gap: 20px;
+    align-items: center;
+}
+
+.titre_footer{
+
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+#logo_newsletter{
+    width: 15px;
+}
+
+#reseaux_sociaux{
+    width: 100px;
+}

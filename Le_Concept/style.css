@@ -6,7 +6,7 @@
 }
 
 html{
-    max-width: 1440px;
+    max-width: 100%;
     margin : 0 auto;
     background-color: #EAEAEA;
 }
@@ -162,7 +162,7 @@ main{
     font-size: 35px;
     text-decoration: none;
 
-    background-color: #40AE49;
+    background-color: #1E5E23;
     border-radius: 10px;
     padding: 50px 100px;
 
@@ -183,7 +183,7 @@ main{
 
 .histoire p{
     background-color: #00AEEF;
-    border: solid 3px #40AE49;
+    border: solid 3px #1E5E23;
 
     color: white;
     font-family: 'Raleway', sans-serif;

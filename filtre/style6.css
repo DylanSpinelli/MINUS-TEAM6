@@ -1,0 +1,83 @@
+body{
+	background-color:#EAEAEA;
+
+}
+
+.filtre{
+margin-top: 30px;
+width: 395px;
+height: 671px;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.75));
+background:#D9D9D9;
+border-radius: 30px;
+margin-left: 45px;
+}
+.filtre img{
+	width: 40px;
+
+}
+.img1 h5{
+	
+	position: absolute;
+width: 379.85px;
+height: 47px;
+left: 80px;
+top: 32px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 146.12%;
+
+color: #000000;
+
+}
+.img2 h5{
+	
+	position: absolute;
+width: 379.85px;
+height: 47px;
+left: 80px;
+top: 315px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 146.12%;
+
+color: #000000;
+
+}
+.img3 h5{
+	
+position: absolute;
+width: 379.85px;
+height: 47px;
+left: 80px;
+top: 495px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 146.12%;
+color: #000000;
+
+}
+.img1, .img2, .img3{
+	padding-top: 30px;
+	padding-left: 30px;
+	
+}
+.filtre li{
+	font-family: 'Raleway';
+}
+.filtre li img{
+	width: 20px;
+	margin-top: 15px;
+	margin-right: 10px;
+}
+.filtre ul{
+	padding-left: 30px;
+
+}
+
