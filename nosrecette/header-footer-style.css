@@ -38,9 +38,6 @@ header ul li a:hover{
     color: yellow;
 
 }
-#header_mon_minus{
-    color: black;
-}
 .chevron_mobile, .menu_mobile{
     display: none;
     width: 0px;
