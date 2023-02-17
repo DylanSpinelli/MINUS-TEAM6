@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 body{
 	background: #EAEAEA;
 	margin: 0;
@@ -16,22 +19,22 @@ a:hover{
 	text-decoration: none;
 }
 h1{
-	text-align: center;
-	font-family: 'Raleway';
-	font-style: normal;
-	font-weight: 700;
-	font-size: 64px;
-	line-height: 146.12%;
+text-align: center;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 146.12%;
 
 }
 h3{
 	margin-bottom: 50px;
-	text-align: center;
-	font-family: 'Raleway';
-	font-style: normal;
-	font-weight: 500;
-	font-size: 36px;
-	line-height: 56px;
+text-align: center;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 56px;
 
 }
 .filtre img{
@@ -43,10 +46,10 @@ h3{
 .filtre p{
 	padding-top: 30px;
 	font-family: 'Raleway';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 20px;
-	line-height: 146.12%;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 146.12%;
 }
 
 .section-recette img{
@@ -55,30 +58,34 @@ h3{
 	width: 100%;
 	height: 300px;
 
-}
-.section-recette{
-	padding-right: 50px;
+
 }
 
 .media0{
 
-	width: 100%;
-	height: 80px;
-	top: calc(10% - 0px/2 - 0px);
-	background: #FFFFFF;
-	border-radius: 0px 0px 40px 40px;
-	margin-bottom: 30px;
-	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+width: 100%;
+height: 80px;
+top: calc(10% - 0px/2 - 0px);
+background: #FFFFFF;
+border-radius: 0px 0px 40px 40px;
+margin-bottom: 30px;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+
+
+}
+.section-recette{
+	padding-right: 50px;
 }
 .media0 p{
 
-	font-family: 'Raleway';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 16px;
-	text-align: center;
-	color: #000000;
-	margin: 0 auto;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+text-align: center;
+color: #000000;
+margin: 0 auto;
 
 }
 .media0 input{
@@ -120,16 +127,16 @@ h3{
 }
 
 .selection input{
-	margin-top: 30px;
-	background: #1E5E23;
-	border-radius: 10px;
-	color: white;
-	border-color: #1E5E23;
-	height: 50px;
-	width: 130px;
-	margin-left: 60px;
-	border-color:#1E5E23;
-	border-style: none; 
+margin-top: 30px;
+background: #1E5E23;
+border-radius: 10px;
+color: white;
+border-color: #1E5E23;
+height: 50px;
+width: 130px;
+margin-left: 60px;
+border-color:#1E5E23;
+border-style: none; 
 }
 .selection input:hover{
 	background-color: white;
@@ -152,18 +159,18 @@ h3{
 	border-style: none;
 	
 }
-.etape-btn1{ 
+.etape-btn1 { 
 	background: #FCEB51; 
 	border-color: #FCEB51;}
-	.etapes{
-		padding-left: 50px;
-		margin-top: 30px;
-		margin-bottom: 30px;
-		font-family: 'Raleway';
-		font-style: normal;
-		font-size: 18px;
-	}
-	.etapes p{
-		padding-top: 10px;
-	}
+.etapes{
+	padding-left: 50px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-family: 'Raleway';
+font-style: normal;
+font-size: 16px;
+}
+.etapes p{
+	padding-top: 10px;
+}
 

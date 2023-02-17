@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+body{
+	
+	background: #EAEAEA;
+}
+
+h1{
+	text-align: center;
+	font-family: "Raleway";
+}
+.connexion input{
+	width: 230px;
+	width: 80%;
+	margin-bottom: 20px;
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+	border-color: white;
+
+
+}
+.connexion{
+	
+	align-items: center;
+	margin-top: 100px;
+	margin-left: 22%;
+
+	width: 60%;
+	height: auto;
+	background: #FFFFFF;
+	border-radius: 40px 40px 40px 40px;
+	margin-bottom: 30px;
+	padding-bottom: 20px;
+	padding-right: 70px;
+	padding-left: 120px;
+	padding-top: 20px;
+	font-family: "Raleway";
+}
+
+.connexion h5{
+	color: #1E5E23;
+	text-decoration:inline;
+	font-weight: 600;
+	text-decoration: underline;
+	float: left;
+	margin-left: 10%;
+
+}
+.monbouton{
+	
+margin-top: 30px;
+	background: #1E5E23;
+	border-radius: 10px;
+	color: white;
+	border-color: #1E5E23;
+	height: 50px;
+	width: 230px;
+	border-color:#1E5E23;
+	border-style: none; 
+}
+.connexion a:hover{
+	background-color: white;
+	color: #1E5E23;
+}
+.connexion input:hover{
+	background-color: white;
+	color: #1E5E23;
+	border-color:white;
+}

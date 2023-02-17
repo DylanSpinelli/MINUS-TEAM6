@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
 body{
 	
 	background: #EAEAEA;
@@ -6,6 +10,7 @@ body{
 }
 h1, h2{
 	text-align: center;
+	font-family: "Raleway";
 }
 .panier{
 margin-left: 70px;
@@ -67,6 +72,8 @@ margin-left: 15px;
 	font-family: 'Raleway';
 font-style: normal;
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-color: white;
+background-color: white;
 }
 .connexion  a{
 font-family: 'Raleway';
@@ -95,6 +102,7 @@ padding-bottom: 20px;
 padding-right: 20px;
 padding-left: 20px;
 padding-top: 40px;
+font-family: "Raleway";
 	
 
 }
@@ -129,7 +137,7 @@ padding-top: 40px;
 	margin-bottom: 30px;
 	font-family: 'Raleway';
 font-style: normal;
-font-size: 18px;
+font-size: 16px;
 }
 .etapes p{
 	padding-top: 10px;
@@ -150,3 +158,4 @@ padding-left: 20px;
 padding-top: 20px;
 text-align: center;
 }
+

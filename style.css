@@ -49,6 +49,7 @@ header ul li a{
 }
 header ul li a:hover{
     color: yellow;
+    text-decoration: none;
 
 }
 /* #header_mon_minus{

@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
 body{
 	
 	background: #EAEAEA;
@@ -6,6 +10,7 @@ body{
 }
 h1, h2{
 	text-align: center;
+	font-family: "Raleway";
 }
 .panier{
 	margin-left: 70px;
@@ -32,12 +37,14 @@ h1, h2{
 	font-size:11px;
 
 }
-h5{
-	font-family: 'Raleway';
-	font-style: normal;
+	
+.connexion h5{
+	color: #1E5E23;
+	text-decoration:inline;
 	font-weight: 600;
-	font-size: 16px;
-}	
+	text-decoration: underline;
+	float: left;
+}
 h3{
 	font-family: 'Raleway';
 	font-style: normal;
@@ -55,12 +62,15 @@ h3{
 	width: 230px;
 	border-color:#1E5E23;
 	border-style: none; 
+	font-family: "Raleway";
+	margin-top: 20px;
 }
 .connexion input{
 	width: 230px;
 	width: 90%;
 	margin-bottom: 20px;
 	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+	border-color: white;
 
 
 }
@@ -79,6 +89,7 @@ h3{
 	padding-right: 20px;
 	padding-left: 20px;
 	padding-top: 20px;
+		font-family: "Raleway";
 }
 
 .connexion h5{
@@ -89,6 +100,7 @@ h3{
 	text-align: center;
 	float: left;
 	padding-left: 70px;
+	font-family: "Raleway";
 
 }
 .etape-btn1, .etape-btn2, .etape-btn3{
@@ -105,18 +117,18 @@ h3{
 .etape-btn1, .etape-btn2, .etape-btn3{ 
 	background: #FCEB51; 
 	border-color: #FCEB51;}
-	.etapes{
+.etapes{
 		padding-left: 50px;
 		margin-top: 30px;
 		margin-bottom: 30px;
 		font-family: 'Raleway';
 		font-style: normal;
-		font-size: 18px;
+		font-size: 16px;
 	}
-	.etapes p{
+.etapes p{
 		padding-top: 10px;
 	}
-	.entete{
+.entete{
 		align-items: center;
 		align-items: center;
 		margin-top: 50px;
